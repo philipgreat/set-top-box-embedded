@@ -1,0 +1,38 @@
+// SmailMailer.idl : IDL source for SmailMailer.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (SmailMailer.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(1EE564AA-A096-4CFE-907C-B149BAB0B500),
+		dual,
+		helpstring("IMailerClient Interface"),
+		pointer_default(unique)
+	]
+	interface IMailerClient : IDispatch
+	{
+	};
+
+[
+	uuid(EC2B89A5-ED78-4288-B826-AFC0644D4398),
+	version(1.0),
+	helpstring("SmailMailer 1.0 Type Library")
+]
+library SMAILMAILERLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(8A53E3DC-E1BC-4E4D-B5AE-3B140B8F755A),
+		helpstring("MailerClient Class")
+	]
+	coclass MailerClient
+	{
+		[default] interface IMailerClient;
+	};
+};

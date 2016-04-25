@@ -1,0 +1,105 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "Common"=.\Common\Common.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "EnvironTest"=.\EnvironTest\EnvironTest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "MSTBRequestBroker"=.\MSTBRequestBroker\MSTBRequestBroker.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/IPTV/2.开发区/4.机顶盒应用/6.settopbox_xpe/src/MSTBRequestBroker", JRAEAAAA
+    .\mstbrequestbroker
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "MSTBShell"=.\MSTBShell\MSTBShell.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "STBBrowser2"=.\STBBrowser2\STBBrowser2.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "STBPlayer"=.\STBPlayer\STBPlayer.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ServiceFramework"=.\ServiceFramework\ServiceFramework.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

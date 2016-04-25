@@ -1,0 +1,39 @@
+HKCR
+{
+	SmailMailer.MailerClient.1 = s 'MailerClient Class'
+	{
+		CLSID = s '{8A53E3DC-E1BC-4E4D-B5AE-3B140B8F755A}'
+	}
+	SmailMailer.MailerClient = s 'MailerClient Class'
+	{
+		CLSID = s '{8A53E3DC-E1BC-4E4D-B5AE-3B140B8F755A}'
+		CurVer = s 'SmailMailer.MailerClient.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {8A53E3DC-E1BC-4E4D-B5AE-3B140B8F755A} = s 'MailerClient Class'
+		{
+			ProgID = s 'SmailMailer.MailerClient.1'
+			VersionIndependentProgID = s 'SmailMailer.MailerClient'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{EC2B89A5-ED78-4288-B826-AFC0644D4398}'
+		}
+	}
+
+
+	*
+	{
+		Shellex
+		{
+			ContextMenuHandlers
+			{
+				{8A53E3DC-E1BC-4E4D-B5AE-3B140B8F755A}
+			}
+		}
+	}
+	
+}

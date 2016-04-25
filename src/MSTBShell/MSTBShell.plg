@@ -1,0 +1,82 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MSTBShell - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP4FF.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\suddy\xpe_stb\src\MSTBShell\MSTBShell.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP4FF.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP500.tmp" with contents
+[
+fastlibrary.lib Advapi32.lib kernel32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/MSTBShell.pdb" /machine:I386 /out:"Release/MSTBShell.exe" 
+.\Release\BadArgumentException.obj
+.\Release\Exception.obj
+.\Release\FileSystemException.obj
+.\Release\HighPrecisionTimer.obj
+.\Release\HttpDownloader.obj
+.\Release\MSTBLiveKeepingTestCases.obj
+.\Release\MSTBShell.obj
+.\Release\MSTBShellApp.obj
+.\Release\NetworkException.obj
+.\Release\StdAfx.obj
+.\Release\TCPClient.obj
+.\Release\TestCase.obj
+.\Release\TestSuite.obj
+.\Release\UpdateTestCases.obj
+.\Release\UpgradeManager.obj
+.\Release\URL.obj
+.\Release\WebDateTime.obj
+.\Release\WindowException.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP500.tmp"
+<h3>Output Window</h3>
+Compiling...
+MSTBShell.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP502.tmp" with contents
+[
+/nologo /o"Release/MSTBShell.bsc" 
+.\Release\StdAfx.sbr
+.\Release\BadArgumentException.sbr
+.\Release\Exception.sbr
+.\Release\FileSystemException.sbr
+.\Release\HighPrecisionTimer.sbr
+.\Release\HttpDownloader.sbr
+.\Release\MSTBLiveKeepingTestCases.sbr
+.\Release\MSTBShell.sbr
+.\Release\MSTBShellApp.sbr
+.\Release\NetworkException.sbr
+.\Release\TCPClient.sbr
+.\Release\TestCase.sbr
+.\Release\TestSuite.sbr
+.\Release\UpdateTestCases.sbr
+.\Release\UpgradeManager.sbr
+.\Release\URL.sbr
+.\Release\WebDateTime.sbr
+.\Release\WindowException.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP502.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP503.bat" with contents
+[
+@echo off
+del           d:\settopbox\mstbshell.exe
+copy           .\release\mstbshell.exe           d:\settopbox\
+]
+Creating command line "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP503.bat"
+
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+MSTBShell.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TestOverLay - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/TestOverLay.res" /d "_DEBUG" "F:\suddy\xpe_stb\src\TestOverLay\TestOverLay.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSPD90.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/TestOverLay.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\suddy\xpe_stb\src\TestOverLay\TestOverLay.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSPD90.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSPD91.tmp" with contents
+[
+ddraw.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/TestOverLay.pdb" /debug /machine:I386 /out:"Debug/TestOverLay.exe" /pdbtype:sept 
+.\Debug\StdAfx.obj
+.\Debug\TestOverLay.res
+.\Debug\TestOverLay.obj
+.\Debug\Overlay.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSPD91.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+TestOverLay.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+TestOverLay.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

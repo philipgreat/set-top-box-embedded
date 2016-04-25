@@ -1,0 +1,127 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: EnvironTest - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP11A2.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Release/" /Fp"Release/EnvironTest.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\suddy\xpe_stb\src\EnvironTest\BadArgumentException.cpp"
+"F:\suddy\xpe_stb\src\EnvironTest\ByteBuffer.cpp"
+"F:\suddy\xpe_stb\src\EnvironTest\DocumentHandle.cpp"
+"F:\suddy\xpe_stb\src\EnvironTest\DocumentProcessingApp.cpp"
+"F:\suddy\xpe_stb\src\EnvironTest\DocumentServerObject.cpp"
+"F:\suddy\xpe_stb\src\EnvironTest\EnvironTest.cpp"
+"F:\suddy\xpe_stb\src\EnvironTest\Exception.cpp"
+"F:\suddy\xpe_stb\src\EnvironTest\MediaFileHandler.cpp"
+"F:\suddy\xpe_stb\src\EnvironTest\MediaFileProcessor.cpp"
+"F:\suddy\xpe_stb\src\EnvironTest\MSWordProcessor.cpp"
+"F:\suddy\xpe_stb\src\EnvironTest\OfficeDocumentProcessor.cpp"
+"F:\suddy\xpe_stb\src\EnvironTest\PowerPointHandler.cpp"
+"F:\suddy\xpe_stb\src\EnvironTest\PowerPointProcessor.cpp"
+"F:\suddy\xpe_stb\src\EnvironTest\SmartDocumentDispatcher.cpp"
+"F:\suddy\xpe_stb\src\EnvironTest\SmartMailFileClient.cpp"
+"F:\suddy\xpe_stb\src\EnvironTest\SourceFileHandler.cpp"
+"F:\suddy\xpe_stb\src\EnvironTest\SourceFileProcessor.cpp"
+"F:\suddy\xpe_stb\src\EnvironTest\TCPClient.cpp"
+"F:\suddy\xpe_stb\src\EnvironTest\URL.cpp"
+"F:\suddy\xpe_stb\src\EnvironTest\WordHandler.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP11A2.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP11A3.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Release/" /Fp"Release/EnvironTest.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\suddy\xpe_stb\src\EnvironTest\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP11A3.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP11A4.tmp" with contents
+[
+ServiceFramework.lib STBCommon.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/EnvironTest.pdb" /machine:I386 /out:"Release/EnvironTest.exe" 
+.\Release\BadArgumentException.obj
+.\Release\ByteBuffer.obj
+.\Release\DocumentHandle.obj
+.\Release\DocumentProcessingApp.obj
+.\Release\DocumentServerObject.obj
+.\Release\EnvironTest.obj
+.\Release\Exception.obj
+.\Release\MediaFileHandler.obj
+.\Release\MediaFileProcessor.obj
+.\Release\MSWordProcessor.obj
+.\Release\OfficeDocumentProcessor.obj
+.\Release\PowerPointHandler.obj
+.\Release\PowerPointProcessor.obj
+.\Release\SmartDocumentDispatcher.obj
+.\Release\SmartMailFileClient.obj
+.\Release\SourceFileHandler.obj
+.\Release\SourceFileProcessor.obj
+.\Release\StdAfx.obj
+.\Release\TCPClient.obj
+.\Release\URL.obj
+.\Release\WordHandler.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP11A4.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+BadArgumentException.cpp
+ByteBuffer.cpp
+DocumentHandle.cpp
+DocumentProcessingApp.cpp
+DocumentServerObject.cpp
+EnvironTest.cpp
+Exception.cpp
+MediaFileHandler.cpp
+MediaFileProcessor.cpp
+MSWordProcessor.cpp
+OfficeDocumentProcessor.cpp
+PowerPointHandler.cpp
+PowerPointProcessor.cpp
+SmartDocumentDispatcher.cpp
+SmartMailFileClient.cpp
+SourceFileHandler.cpp
+SourceFileProcessor.cpp
+TCPClient.cpp
+F:\suddy\xpe_stb\src\EnvironTest\TCPClient.cpp(163) : warning C4018: '==' : signed/unsigned mismatch
+URL.cpp
+WordHandler.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP11A6.tmp" with contents
+[
+/nologo /o"Release/EnvironTest.bsc" 
+.\Release\StdAfx.sbr
+.\Release\BadArgumentException.sbr
+.\Release\ByteBuffer.sbr
+.\Release\DocumentHandle.sbr
+.\Release\DocumentProcessingApp.sbr
+.\Release\DocumentServerObject.sbr
+.\Release\EnvironTest.sbr
+.\Release\Exception.sbr
+.\Release\MediaFileHandler.sbr
+.\Release\MediaFileProcessor.sbr
+.\Release\MSWordProcessor.sbr
+.\Release\OfficeDocumentProcessor.sbr
+.\Release\PowerPointHandler.sbr
+.\Release\PowerPointProcessor.sbr
+.\Release\SmartDocumentDispatcher.sbr
+.\Release\SmartMailFileClient.sbr
+.\Release\SourceFileHandler.sbr
+.\Release\SourceFileProcessor.sbr
+.\Release\TCPClient.sbr
+.\Release\URL.sbr
+.\Release\WordHandler.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1.SUD\LOCALS~1\Temp\RSP11A6.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+EnvironTest.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
